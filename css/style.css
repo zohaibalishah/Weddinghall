@@ -1,0 +1,164 @@
+html,body{
+    
+    height: 100%;
+}
+
+body{
+    
+padding-top: 51px;    
+}
+.body-section{
+    padding-bottom: 70px;
+    
+}
+.panel-body{
+     padding: 5px; 
+}
+.li,.su{
+    padding-bottom: 20px;
+   
+}
+#wrapper{
+    min-height: 100%;
+    position: relative;
+    
+}
+
+/* footer */
+
+footer {
+    background-color: orange;
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    position: absolute;
+bottom: 0;
+    width: 100%;
+}
+
+element.style {
+    bottom: 0;
+}
+.text-center {
+    text-align: center;
+}
+
+footer a{
+   font-weight: bold;
+    color: white;
+   
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+   
+}
+ .navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    font-weight: bold;
+}
+.navbar-inverse {
+    background-color:orange;
+    border-color: orange;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: black;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: red;
+}
+.navbar-inverse .navbar-toggle:active {
+    background-color: brown;
+}
+.navbar-inverse .navbar-toggle:visited {
+    background-color: brown;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: red;
+    border-color: white;
+    border: 1px solid red;
+}
+.panel-primary {
+    border-color: red;
+}
+
+/*facilities*/
+.margin-top{
+  
+    margin-top: 40px;
+}
+.facilities .our, .info .our{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.facilities h2,.info h2{
+  
+   border-bottom: 2px solid black;
+    width: 180px;
+    
+}
+.facilities p{
+    font-size: 14px;
+   
+    font-weight: bold;
+    color: orangered;
+    
+}
+.facility-nested ,.info-nested{
+    
+    margin-top: 20px;
+}
+.social p{
+    font-size: 20px;
+    
+ 
+    margin-left: -15px;
+    
+}
+.info p{
+    
+    margin-left: -15px;
+}
+.social a{
+   
+    color: olive;
+    text-decoration: none;
+    
+    
+}
+
+.social a:hover{
+   
+    color: orange;
+    text-decoration: none;
+    
+    
+}
+/*slider*/
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    height: 450px;
+    line-height: 1;
+}
+
+
+
+
+
+
+

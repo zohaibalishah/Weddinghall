@@ -1,0 +1,67 @@
+.green {
+  background-color: green;
+  height: 200px;
+}
+.red {
+  background-color: red;
+  height: 200px;
+}
+.admin-menu {
+  //padding: 5px 0;
+}
+.admin-menu,
+.admin-menu a{
+  color: #fff;
+  padding: 5px 10px;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar {
+  border-radius: 0;
+}
+.navbar-brand img {
+  width: 80%;
+}
+img {
+  width: 100%;
+}
+
+.carousel-caption {
+  //background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.35);
+    bottom:34%;
+  }
+}
+.rent-house
+{
+    position: relative;
+}
+.rent-house-detail
+{    color: white;
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 8px;
+    bottom: 0;
+    
+}
+.about-container{
+    background-image: linear-gradient(rgba(120, 136, 136, 0.71),rgba(120, 136, 136, 0.71)),url(5.jpeg);
+}
+.footer{
+    background-color: #534d4d;
+}
+.footer p{
+    font-size: 12px;
+}
+.white{
+    color: white
+}

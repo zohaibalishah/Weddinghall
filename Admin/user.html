@@ -1,0 +1,285 @@
+     
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Town Portal</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mystyle.css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+      
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>  
+  </head>
+  <body>
+      <div id="wrapper">
+      
+      
+      <!--      Menu -->
+         
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+        <strong>Admin</strong>
+          </a>
+        </div>
+           <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+            <ul class="nav navbar-nav">
+            <li><a href="#" >Home</a></li>
+            
+                <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+            
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right" >
+            
+            <li><a href="#"><i class="fa fa-power-off "></i> Logout</a></li>
+            
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+          
+          
+      </div><!-- /.container-fluid -->
+ </nav>
+<!--     -->          
+      <div class="container-fluid body-section">
+      
+        <div class="row">
+            <div class="col-md-3">
+                    
+                <div class="list-group">
+                   
+                <a href="index.php" class="list-group-item active">
+                    <i class="fa fa-tachometer"></i>
+                     Dashboard</a>
+                    
+                <a href="#" class="list-group-item ">
+                    <span class="badge">10</span>
+                      <i class="fa fa-file-text"></i> 
+                    All Reservation</a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">5</span>
+                       <i class="fa fa-fa"></i>
+                     Services</a>
+                <a href="#" class="list-group-item ">
+                    <span class="badge">200</span>
+                     <i class="fa fa-users"></i>
+                    Regester Users</a>
+                <a href="#" class="list-group-item ">
+                    <span class="badge">40</span>
+                       <i class="fa fa-folder-open"></i>
+                    All Rdesevation </a>
+                <a href="#" class="list-group-item ">
+                      <span class="badge">500</span>
+                    <i class="fa fa-comments"></i> 
+                    Comments</a>
+                 
+               
+                
+                </div>
+                    
+                  </div>  
+            
+              
+            <div class="col-md-9">
+            
+            <h1><i class="fa fa-tachometer"></i> Users<small> Staticstic Overview</small></h1>
+                <ol class="breadcrumb">
+                    <li > <a href="index.html"><i class="fa fa-tachometer"></i> Dashboard</a></li> 
+                    <li class="active"><i class="fa fa-users"></i> Users</li> 
+                </ol>
+                    
+                
+                <div class="row">
+                    <div class="col-sm-8">
+                        <form method="post" action="">
+                             <div class="row">
+                                 <div class="col-xs-4">
+                                    <div class="form-group">
+                                        
+                                        <select name="" id="" class="form-control">
+                                        
+                                        <option value="">-Select-</option>
+                                        <option value="delete">Delete</option>
+                                        <option value="author">Change to Author</option>
+                                        <option value="admin">Change to Admin</option>
+                                        </select>
+                                     
+                                    </div>
+                                 
+                                 </div>
+                                 <div class="col-xs-8">
+                                    <input type="submit" name="" value="Applay" class="btn btn-success">
+                                    <a href="#" class="btn btn-primary">Add New</a>
+                                 
+                                 </div>
+                                 </div>
+                        
+                        
+                        
+                        </form>
+                    
+                    
+                    </div>
+                
+                
+                
+                
+                </div>
+                <!--user table-->
+                <h3>New Users</h3>
+                <table class="table table-hover table-striped table-bordered">
+                
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" value="" name=""></th>
+                            <th>Sr #</th>
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>UserNAme</th>
+                            <th>Email</th>
+                            <th>Image</th>
+                            <th>Password</th>
+                            <th>Role</th>
+                            <th>Post</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        
+                        </tr>
+                    
+                    </thead>
+                    <tbody>
+                       
+                           <tr>
+                           <td><input type="checkbox" value="" name=""></td>
+                            <td>1</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr> 
+                        <tr>
+                            <td><input type="checkbox" value="" name=""></td>
+                            <td>2</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" value="" name=""></td>
+                            <td>3</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr>
+                       <tr>
+                            <td><input type="checkbox" value="" name=""></td>
+                            <td>4</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td><input type="checkbox" value="" name=""></td>
+                            <td>5</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="checkbox" value="" name=""></td>
+                            <td>6</td>
+                            <td>26 Aprial 2018</td>
+                            <td>Zohaib Ali Shah</td>
+                            <td>Zohaib 767</td>
+                            <td>zohaibalishah9@gmail.com</td>
+                            <td><img src="" ></td>
+                            <td>12345</td>
+                            <td>Admin</td>
+                            <td>20</td>
+                            <td><a href="#"><i class="fa fa-pencil"></i></a></td>
+                            <td><a href="#"><i class="fa fa-times"></i></a></td>
+
+                        </tr>
+                    </tbody>
+                
+                </table>
+                <a href="" class="btn btn-primary">View All Users</a>
+            </div>     
+        </div>
+   
+      </div>
+          
+          
+          
+          
+        
+          
+<!--          Footer-->
+          
+          
+     <footer class="text-center">
+        copyright &copy; by <a href="#">zohaib ali shah</a> from 2018 - 2019
+      
+      </footer>
+      
+      
+  
+      
+      </div>
+    </body></html>
